@@ -47,10 +47,8 @@ namespace Gestion_voiture_BackOffice.Models
         public string Descriptions { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        [DisplayName("Prix quotidien en Ariary")]
-        public decimal DailyPrice { get; set; }
-
-        public bool IsAvailable { get; set; }
+        [DisplayName("Tableau kilometrique avant l'usage du vehicule")]
+        public decimal TableKilometer { get; set; }
 
         public string PhotoUrl { get; set; }
 

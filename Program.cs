@@ -7,8 +7,15 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Authentication
+// builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+//     .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme,
+//         options => builder.Configuration.Bind("JwtSettings", options))
+//     .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
+//         options => builder.Configuration.Bind("CookieSettings", options));
 
 // Add services to the container.
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
