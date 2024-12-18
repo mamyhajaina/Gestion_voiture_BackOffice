@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="pagetitle">
+    <h1>Gestion des Véhicules</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+            <li class="breadcrumb-item">Gestion</li>
+            <li class="breadcrumb-item active">Véhicules</li>
+        </ol>
+    </nav>
+</div><!-- Fin du titre de la page -->
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <!-- Gestion des véhicules -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Liste des Véhicules</h5>
+                    <p>Gérez vos véhicules ici : ajout, modification, suppression, suivi en temps réel, et archivage des véhicules vendus.</p>
+
+                    <!-- Boutons pour gestion -->
+                    <div class="d-flex justify-content-end mb-3">
+                        <button class="btn btn-success me-2" id="btn-add">Ajouter un véhicule</button>
+                        <button class="btn btn-warning me-2" id="btn-archive">Voir les archives</button>
+                    </div>
+
+                    <!-- Table pour la gestion des véhicules -->
+                    <table class="table datatable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Marque</th>
+                                <th>Modèle</th>
+                                <th>Année</th>
+                                <th>Prix</th>
+                                <th>Disponibilité</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < (int)ViewData["count"] ; i++){
+                                <tr>
+                                    <td>1</td>
+                                    <td>@ViewData["Name"]</td>
+                                    <td>Corolla</td>
+                                    <td>2020</td>
+                                    <td>15,000 €</td>
+                                    <td><span class="badge bg-success">Disponible</span></td>
+                                    <td>
+                                        <button class="btn btn-primary btn-sm me-1">Modifier</button>
+                                        <button class="btn btn-danger btn-sm me-1">Supprimer</button>
+                                        <button class="btn btn-secondary btn-sm">Archiver</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <!-- Fin de la table -->
+
+                </div>
+            </div>
+            <!-- Fin de la gestion des véhicules -->
+
+        </div>
+    </div>
+</section>
