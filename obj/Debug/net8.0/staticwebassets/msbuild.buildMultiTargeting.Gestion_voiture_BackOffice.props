@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Gestion_voiture_BackOffice.props" />
+</Project>

@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F23B330-D16D-48D8-B59D-BC7CFD7A1B47}|Gestion_voiture_BackOffice.csproj|d:\\dev web\\master\\master 2 mbds\\backend et cybers\u00E9curit\u00E9\\dotenet\\examen\\gestion_voiture_backoffice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F23B330-D16D-48D8-B59D-BC7CFD7A1B47}|Gestion_voiture_BackOffice.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dev Web\\Template\\NiceAdmin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F23B330-D16D-48D8-B59D-BC7CFD7A1B47}|Gestion_voiture_BackOffice.csproj|d:\\dev web\\master\\master 2 mbds\\backend et cybers\u00E9curit\u00E9\\dotenet\\examen\\gestion_voiture_backoffice\\views\\loginregister\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F23B330-D16D-48D8-B59D-BC7CFD7A1B47}|Gestion_voiture_BackOffice.csproj|solutionrelative:views\\loginregister\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F23B330-D16D-48D8-B59D-BC7CFD7A1B47}|Gestion_voiture_BackOffice.csproj|d:\\dev web\\master\\master 2 mbds\\backend et cybers\u00E9curit\u00E9\\dotenet\\examen\\gestion_voiture_backoffice\\views\\loginregister\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F23B330-D16D-48D8-B59D-BC7CFD7A1B47}|Gestion_voiture_BackOffice.csproj|solutionrelative:views\\loginregister\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dev Web\\Template\\NiceAdmin\\pages-login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dev Web\\Template\\NiceAdmin\\pages-register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Dev Web\\Template\\NiceAdmin\\index.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Template\\NiceAdmin\\index.html",
+              "ToolTip": "D:\\Dev Web\\Template\\NiceAdmin\\index.html",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Template\\NiceAdmin\\index.html",
+              "ViewState": "AgIAAPMBAAAAAAAAAAAAAPwBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-17T16:19:28.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pages-register.html",
+              "DocumentMoniker": "D:\\Dev Web\\Template\\NiceAdmin\\pages-register.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Template\\NiceAdmin\\pages-register.html",
+              "ToolTip": "D:\\Dev Web\\Template\\NiceAdmin\\pages-register.html",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Template\\NiceAdmin\\pages-register.html",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-17T15:30:32.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\Views\\LoginRegister\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoginRegister\\Register.cshtml",
+              "ToolTip": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\Views\\LoginRegister\\Register.cshtml",
+              "RelativeToolTip": "Views\\LoginRegister\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T15:30:21.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOsBAAAAAAAAAAAUwPoBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T15:28:13.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\Views\\LoginRegister\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoginRegister\\Index.cshtml",
+              "ToolTip": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybers\u00E9curit\u00E9\\doteNet\\Examen\\Gestion_voiture_BackOffice\\Views\\LoginRegister\\Index.cshtml",
+              "RelativeToolTip": "Views\\LoginRegister\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T15:27:15.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pages-login.html",
+              "DocumentMoniker": "D:\\Dev Web\\Template\\NiceAdmin\\pages-login.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Template\\NiceAdmin\\pages-login.html",
+              "ToolTip": "D:\\Dev Web\\Template\\NiceAdmin\\pages-login.html",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Template\\NiceAdmin\\pages-login.html",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAHMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-17T15:23:29.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
