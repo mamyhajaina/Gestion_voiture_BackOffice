@@ -1,7 +1,5 @@
-﻿using Gestion_voiture_BackOffice.Models;
-using Gestion_voiture_BackOffice.Services;
+﻿using Gestion_voiture_BackOffice.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 namespace Gestion_voiture_BackOffice.Controllers
 {
@@ -34,7 +32,7 @@ namespace Gestion_voiture_BackOffice.Controllers
 
         // POST: /User/Create
         [HttpPost]
-        public async Task<IActionResult> Create(User user)
+        public async Task<IActionResult> Create(Gestion_voiture_BackOffice.Models.User user)
         {
             if (ModelState.IsValid)
             {
@@ -46,7 +44,7 @@ namespace Gestion_voiture_BackOffice.Controllers
 
         // POST: /User/Edit
         [HttpPost]
-        public async Task<IActionResult> Edit(User user)
+        public async Task<IActionResult> Edit(Gestion_voiture_BackOffice.Models.User user)
         {
             if (ModelState.IsValid)
             {

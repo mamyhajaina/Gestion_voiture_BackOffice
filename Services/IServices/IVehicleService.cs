@@ -3,12 +3,12 @@ using Gestion_voiture_BackOffice.Models;
 
 namespace Gestion_voiture_BackOffice.Services.IServices
 {
-    public interface IUserService
+    public interface IVehicleService
     {
-        Task<IEnumerable<User>> GetAllAsync();
-        Task<User> GetByIdAsync(int id);
-        Task<User> CreateAsync(User user);
-        Task<User> UpdateAsync(User user);
+        Task<IEnumerable<Vehicle>> GetAllAsync();
+        Task<Vehicle> GetByIdAsync(int id);
+        Task<Vehicle> CreateAsync(Vehicle Vehicle);
+        Task<Vehicle> UpdateAsync(Vehicle Vehicle);
         Task<bool> DeleteAsync(int id);
     }
 }
