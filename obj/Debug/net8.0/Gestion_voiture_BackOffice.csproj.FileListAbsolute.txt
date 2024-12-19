@@ -171,3 +171,4 @@ D:\Dev Web\Master\Master 2 MBDS\Backend et Cybersécurité\doteNet\Examen\Gestio
 D:\Dev Web\Master\Master 2 MBDS\Backend et Cybersécurité\doteNet\Examen\Gestion_voiture_BackOffice\obj\Debug\net8.0\Gestion_voiture_BackOffice.csproj.AssemblyReference.cache
 D:\Dev Web\Master\Master 2 MBDS\Backend et Cybersécurité\doteNet\Examen\Gestion_voiture_BackOffice\obj\Debug\net8.0\Gestion_voiture_BackOffice.sourcelink.json
 D:\Dev Web\Master\Master 2 MBDS\Backend et Cybersécurité\doteNet\Examen\Gestion_voiture_BackOffice\obj\Debug\net8.0\Gestion_.545893CF.Up2Date
+D:\Dev Web\Master\Master 2 MBDS\Backend et Cybersécurité\doteNet\Examen\Gestion_voiture_BackOffice\obj\Debug\net8.0\scopedcss\Views\Shared\_Aside.cshtml.rz.scp.css

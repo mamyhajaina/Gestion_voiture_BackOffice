@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestion_voiture_BackOffice.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Gestion_voiture_BackOffice.lbloqqkazr.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Gestion_voiture_BackOffice.lnsct8z9a6.bundle.scp.css"
     },
     {
       "Id": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\assets\\css\\style.css",
@@ -1995,6 +1995,10 @@
     {
       "Id": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\js\\loginRegister.js",
+      "PackagePath": "staticwebassets\\js\\loginRegister.js"
     },
     {
       "Id": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\js\\site.js",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestion_voiture_BackOffice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee09885aeae74607ebd7fd844975c4e65a424d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef44d3c87c4a12a70ec4b493ce47e1992731942")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestion_voiture_BackOffice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestion_voiture_BackOffice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

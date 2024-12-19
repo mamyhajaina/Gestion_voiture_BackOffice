@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GhKxyjAzwDW+4/TPcI3hOENqUS0Smtk0zyZwjVHbqSo=",
+  "Hash": "uIPQeUx7GdPsLf06oFWiPgR1Siq1QTZNkEM636nt+qY=",
   "Source": "Gestion_voiture_BackOffice",
   "BasePath": "_content/Gestion_voiture_BackOffice",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "lbloqqkazr",
-      "Integrity": "8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0=",
+      "Fingerprint": "lnsct8z9a6",
+      "Integrity": "EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gestion_voiture_BackOffice.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "lbloqqkazr",
-      "Integrity": "8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0=",
+      "Fingerprint": "lnsct8z9a6",
+      "Integrity": "EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestion_voiture_BackOffice.bundle.scp.css"
@@ -10515,6 +10515,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\js\\loginRegister.js",
+      "SourceId": "Gestion_voiture_BackOffice",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\",
+      "BasePath": "_content/Gestion_voiture_BackOffice",
+      "RelativePath": "js/loginRegister#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "awpwv5vim7",
+      "Integrity": "Gm4MURGmEGhdPN+y+JQuRMF/1sedyTeTf0x4skW8X6E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\loginRegister.js"
     },
     {
       "Identity": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\js\\site.js",
@@ -52583,7 +52604,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1144"
+          "Value": "2287"
         },
         {
           "Name": "Content-Type",
@@ -52591,11 +52612,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0=\""
+          "Value": "\"EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 14:53:25 GMT"
+          "Value": "Thu, 19 Dec 2024 19:05:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -52605,12 +52626,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0="
+          "Value": "sha256-EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk="
         }
       ]
     },
     {
-      "Route": "Gestion_voiture_BackOffice.lbloqqkazr.bundle.scp.css",
+      "Route": "Gestion_voiture_BackOffice.lnsct8z9a6.bundle.scp.css",
       "AssetFile": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestion_voiture_BackOffice.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -52620,7 +52641,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1144"
+          "Value": "2287"
         },
         {
           "Name": "Content-Type",
@@ -52628,11 +52649,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0=\""
+          "Value": "\"EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 14:53:25 GMT"
+          "Value": "Thu, 19 Dec 2024 19:05:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -52642,7 +52663,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lbloqqkazr"
+          "Value": "lnsct8z9a6"
         },
         {
           "Name": "label",
@@ -52650,12 +52671,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0="
+          "Value": "sha256-EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk="
         }
       ]
     },
     {
-      "Route": "Gestion_voiture_BackOffice.lbloqqkazr.styles.css",
+      "Route": "Gestion_voiture_BackOffice.lnsct8z9a6.styles.css",
       "AssetFile": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gestion_voiture_BackOffice.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -52665,7 +52686,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1144"
+          "Value": "2287"
         },
         {
           "Name": "Content-Type",
@@ -52673,11 +52694,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0=\""
+          "Value": "\"EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 14:53:25 GMT"
+          "Value": "Thu, 19 Dec 2024 19:05:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -52687,7 +52708,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lbloqqkazr"
+          "Value": "lnsct8z9a6"
         },
         {
           "Name": "label",
@@ -52695,7 +52716,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0="
+          "Value": "sha256-EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk="
         }
       ]
     },
@@ -52710,7 +52731,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1144"
+          "Value": "2287"
         },
         {
           "Name": "Content-Type",
@@ -52718,11 +52739,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0=\""
+          "Value": "\"EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 14:53:25 GMT"
+          "Value": "Thu, 19 Dec 2024 19:05:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -52732,7 +52753,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8UOrytJY2lonmC3oFVQAv3QWZBk7m0nHKS1k7kCHjr0="
+          "Value": "sha256-EemGecrv4LtlmMwCQDsOgh/eJMcYxsNOtz6NLRBXKMk="
+        }
+      ]
+    },
+    {
+      "Route": "js/loginRegister.awpwv5vim7.js",
+      "AssetFile": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\js\\loginRegister.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gm4MURGmEGhdPN+y+JQuRMF/1sedyTeTf0x4skW8X6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 11:31:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "awpwv5vim7"
+        },
+        {
+          "Name": "label",
+          "Value": "js/loginRegister.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gm4MURGmEGhdPN+y+JQuRMF/1sedyTeTf0x4skW8X6E="
+        }
+      ]
+    },
+    {
+      "Route": "js/loginRegister.js",
+      "AssetFile": "D:\\Dev Web\\Master\\Master 2 MBDS\\Backend et Cybersécurité\\doteNet\\Examen\\Gestion_voiture_BackOffice\\wwwroot\\js\\loginRegister.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gm4MURGmEGhdPN+y+JQuRMF/1sedyTeTf0x4skW8X6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Dec 2024 11:31:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gm4MURGmEGhdPN+y+JQuRMF/1sedyTeTf0x4skW8X6E="
         }
       ]
     },

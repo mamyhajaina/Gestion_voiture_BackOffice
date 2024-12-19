@@ -8,6 +8,7 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "Nom")]
         [Required(ErrorMessage = "Le nom est obligatoire.")]
         [StringLength(50, ErrorMessage = "Le nom ne doit pas dépasser 50 caractères.")]
         public string FirstName { get; set; }
@@ -16,13 +17,12 @@ namespace Gestion_voiture_BackOffice.Models
         [StringLength(50, ErrorMessage = "Le prénom ne doit pas dépasser 50 caractères.")]
         public string LastName { get; set; }
 
-        [Required(ErrorMessage = "L'email est obligatoire.")]
-        [EmailAddress(ErrorMessage = "Format d'email invalide.")]
-        [StringLength(100, ErrorMessage = "L'email ne doit pas dépasser 100 caractères.")]
+        [Required(ErrorMessage = "Veuillez entrer votre email.")]
+        [EmailAddress(ErrorMessage = "Veuillez entrer un email valide.")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Le mot de passe est obligatoire.")]
-        [StringLength(255, ErrorMessage = "Le mot de passe ne doit pas dépasser 255 caractères.")]
+        [Required(ErrorMessage = "Veuillez entrer votre mot de passe.")]
+        [DataType(DataType.Password)]
         public string PasswordHash { get; set; }
 
 
@@ -31,11 +31,11 @@ namespace Gestion_voiture_BackOffice.Models
         public RoleUser RoleUser { get; set; }
 
         [Column(TypeName = "datetime")]
-        public DateTime CreatedAt { get; set; }
+        public DateTime? CreatedAt { get; set; } = DateTime.Now;
 
         [Column(TypeName = "datetime")]
-        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+        public DateTime? UpdatedAt { get; set; } = DateTime.Now;
 
-        public bool IsActive { get; set; } = true;
+        public bool? IsActive { get; set; } = true;
     }
 }

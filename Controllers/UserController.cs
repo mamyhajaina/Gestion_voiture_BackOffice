@@ -1,5 +1,6 @@
 ﻿using Gestion_voiture_BackOffice.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
+using Gestion_voiture_BackOffice.Models;
 
 namespace Gestion_voiture_BackOffice.Controllers
 {

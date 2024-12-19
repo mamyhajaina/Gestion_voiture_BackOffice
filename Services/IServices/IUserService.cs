@@ -10,5 +10,6 @@ namespace Gestion_voiture_BackOffice.Services.IServices
         Task<User> CreateAsync(User user);
         Task<User> UpdateAsync(User user);
         Task<bool> DeleteAsync(int id);
+        Task<User> GetByEmailPassWordAsync(String email, String password);
     }
 }
