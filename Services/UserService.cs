@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Gestion_voiture_BackOffice.Services
 {
-    public class UserService : IUserService
+    public class UseSrervice : IUserService
     {
         private readonly ApplicationDBContext _context;
 
@@ -16,17 +16,17 @@ namespace Gestion_voiture_BackOffice.Services
 
         public async Task<IEnumerable<User>> GetAllAsync()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.User.ToListAsync();
         }
 
         public async Task<User> GetByIdAsync(int id)
         {
-            return await _context.Users.FindAsync(id);
+            return await _context.User.FindAsync(id);
         }
 
         public async Task<User> CreateAsync(User user)
         {
-            _context.Users.Add(user);
+            _context.User.Add(user);
             await _context.SaveChangesAsync();
             return user;
         }
@@ -40,11 +40,11 @@ namespace Gestion_voiture_BackOffice.Services
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var user = await _context.Users.FindAsync(id);
+            var user = await _context.User.FindAsync(id);
             if (user == null)
                 return false;
 
-            _context.Users.Remove(user);
+            _context.User.Remove(user);
             await _context.SaveChangesAsync();
             return true;
         }
