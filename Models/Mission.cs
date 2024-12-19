@@ -9,26 +9,24 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
+        [ForeignKey("Offer")]
         public int offerId { get; set; }
-
-        [ForeignKey("offerId")]
         public Offer Offer { get; set; }
 
-        public int vehicleId { get; set; }
-
-        [ForeignKey("vehicleId")]
-        public Vehicle Vehicle { get; set; }
+        [ForeignKey("Vehicle")]
+        public int idVehicle { get; set; }
+        public Vehicles Vehicle { get; set; }
 
         [Column(TypeName = "int")]
         [DisplayName("Nombre de voyage")]
         public int NumberTrips { get; set; }
 
-        public int typeRentalId { get; set; }
 
-        [ForeignKey("typeRentalId")]
+        [ForeignKey("TypeRental")]
+        public int typeRentalId { get; set; }
         public TypeRental TypeRental { get; set; }
 
-        [Column(TypeName = "boolean")]
+        [Column(TypeName = "bit")]
         [DisplayName("Si true alors de mission est terminé alors si false la mission est refuser ou annuler")]
         public bool status { get; set; }
 

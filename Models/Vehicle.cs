@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace Gestion_voiture_BackOffice.Models
 {
-    public class Vehicle
+    public class Vehicles
     {
         [Key]
         public int Id { get; set; }
@@ -21,9 +21,9 @@ namespace Gestion_voiture_BackOffice.Models
         [MaxLength(20, ErrorMessage = "Maximum 20 characters only.")]
         public string Pseudo { get; set; }
 
-        public int typeVehicleId { get; set; }
 
-        [ForeignKey("typeVehicleId")]
+        [ForeignKey("TypeVehicle")]
+        public int typeVehicleId { get; set; }
         public TypeVehicle TypeVehicle { get; set; }
 
 

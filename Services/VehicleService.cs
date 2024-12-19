@@ -15,24 +15,24 @@ namespace Gestion_voiture_BackOffice.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<Vehicle>> GetAllAsync()
+        public async Task<IEnumerable<Vehicles>> GetAllAsync()
         {
-            return await _context.Vehicle.ToListAsync();
+            return await _context.Vehicles.ToListAsync();
         }
 
-        public async Task<Vehicle> GetByIdAsync(int id)
+        public async Task<Vehicles> GetByIdAsync(int id)
         {
-            return await _context.Vehicle.FindAsync(id);
+            return await _context.Vehicles.FindAsync(id);
         }
 
-        public async Task<Vehicle> CreateAsync(Vehicle Vehicle)
+        public async Task<Vehicles> CreateAsync(Vehicles Vehicle)
         {
-            _context.Vehicle.Add(Vehicle);
-            await _context.SaveChangesAsync();
+            //_context.Vehicle.Add(Vehicle);
+            //await _context.SaveChangesAsync();
             return Vehicle;
         }
 
-        public async Task<Vehicle> UpdateAsync(Vehicle Vehicle)
+        public async Task<Vehicles> UpdateAsync(Vehicles Vehicle)
         {
             _context.Entry(Vehicle).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -41,11 +41,11 @@ namespace Gestion_voiture_BackOffice.Services
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var Vehicle = await _context.Vehicle.FindAsync(id);
+            var Vehicle = await _context.Vehicles.FindAsync(id);
             if (Vehicle == null)
                 return false;
 
-            _context.Vehicle.Remove(Vehicle);
+            _context.Vehicles.Remove(Vehicle);
             await _context.SaveChangesAsync();
             return true;
         }

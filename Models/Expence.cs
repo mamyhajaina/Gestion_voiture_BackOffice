@@ -9,9 +9,9 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
-        public int missionId { get; set; }
 
-        [ForeignKey("missionId")]
+        [ForeignKey("Mission")]
+        public int missionId { get; set; }
         public Mission Mission { get; set; }
 
         [Column(TypeName = "nvarchar(1000)")]

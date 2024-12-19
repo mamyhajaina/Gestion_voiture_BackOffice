@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "Liste des voitures à gérer";
 }
-@model IEnumerable<Gestion_voiture_BackOffice.Models.Vehicle>
+@model IEnumerable<Gestion_voiture_BackOffice.Models.Vehicles>
 <div class="pagetitle">
     <h1>Gestion des Véhicules</h1>
     <nav>
@@ -41,7 +41,7 @@
                                 <th>Model</th>
                                 <th>Marque</th>
                                 <th>Capacity</th>
-                                <th>Disponibilité</th>
+                                @* <th>Disponibilité</th> *@
                                 <th>Actions</th>
                             </tr>
                         </thead>
@@ -54,14 +54,14 @@
                                     <td>@vehicle.Model</td>
                                     <td>@vehicle.Brand</td>
                                     <td>@vehicle.Capacity Tonne</td>
-                                    <td>
-                                    @if ((bool)vehicle.IsAvailable){
-                                        <span class="badge bg-success">Disponible</span>
-                                    }
-                                    else{
-                                        <span class="badge bg-danger">Non Disponible</span>
-                                    }
-                                    </td>
+                                    @* <td> *@
+                                    @* @if ((bool)vehicle.IsAvailable){ *@
+                                    @*     <span class="badge bg-success">Disponible</span> *@
+                                    @* } *@
+                                    @* else{ *@
+                                    @*     <span class="badge bg-danger">Non Disponible</span> *@
+                                    @* } *@
+                                    @* </td> *@
                                     <td>
                                         <button class="btn btn-primary btn-sm me-1">Modifier</button>
                                         <button class="btn btn-danger btn-sm me-1">Supprimer</button>

@@ -7,7 +7,7 @@ namespace Gestion_voiture_BackOffice.Models
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options): base(options)
         {}
 
-        public DbSet<Vehicle> Vehicle { get; set; }
+        public DbSet<Vehicles> Vehicles { get; set; }
         public DbSet<AmoutLocationTrager> AmoutLocationTrager { get; set; }
         public DbSet<Expence> Expence { get; set; }
         public DbSet<Invoices> Invoices { get; set; }
@@ -19,5 +19,26 @@ namespace Gestion_voiture_BackOffice.Models
         public DbSet<TypeRental> TypeRental { get; set; }
         public DbSet<TypeVehicle> TypeVehicle { get; set; }
         public DbSet<User> User { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Mission>()
+                .HasOne(m => m.Offer)
+                .WithMany()
+                .HasForeignKey(m => m.offerId)
+                .OnDelete(DeleteBehavior.Restrict); // Empêche ON DELETE CASCADE
+
+            modelBuilder.Entity<Mission>()
+                .HasOne(m => m.Vehicle)
+                .WithMany()
+                .HasForeignKey(m => m.idVehicle)
+                .OnDelete(DeleteBehavior.Restrict); // Empêche ON DELETE CASCADE
+
+            modelBuilder.Entity<Mission>()
+                .HasOne(m => m.TypeRental)
+                .WithMany()
+                .HasForeignKey(m => m.typeRentalId)
+                .OnDelete(DeleteBehavior.Restrict); // Empêche ON DELETE CASCADE
+        }
     }
 }

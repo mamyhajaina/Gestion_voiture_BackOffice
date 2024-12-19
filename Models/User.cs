@@ -25,9 +25,9 @@ namespace Gestion_voiture_BackOffice.Models
         [StringLength(255, ErrorMessage = "Le mot de passe ne doit pas dépasser 255 caractères.")]
         public string PasswordHash { get; set; }
 
-        public int roleId { get; set; }
 
-        [ForeignKey("roleId")]
+        [ForeignKey("RoleUser")]
+        public int roleId { get; set; }
         public RoleUser RoleUser { get; set; }
 
         [Column(TypeName = "datetime")]

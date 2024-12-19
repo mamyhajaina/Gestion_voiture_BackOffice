@@ -9,20 +9,20 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
-        public int tragerId { get; set; }
 
-        [ForeignKey("tragerId")]
+        [ForeignKey("Trager")]
+        public int tragerId { get; set; }
         public Trager Trager { get; set; }
 
-        public int clientId { get; set; }
 
-        [ForeignKey("clientId")]
+        [ForeignKey("User")]
+        public int userId { get; set; }
         public User User { get; set; }
 
-        public int vehicleId { get; set; }
 
-        [ForeignKey("vehicleId")]
-        public Vehicle Vehicle { get; set; }
+        [ForeignKey("Vehicle")]
+        public int vehicleId { get; set; }
+        public Vehicles Vehicle { get; set; }
 
         [Column(TypeName = "nvarchar(1000)")]
         [DisplayName("Si le trager voulu ne figure par dans le trager alors il faut completer cet champ")]

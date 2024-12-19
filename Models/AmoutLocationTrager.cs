@@ -9,9 +9,9 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
-        public int tragerId { get; set; }
 
-        [ForeignKey("tragerId")]
+        [ForeignKey("Trager")]
+        public int tragerId { get; set; }
         public Trager Trager { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]

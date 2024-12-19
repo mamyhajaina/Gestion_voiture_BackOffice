@@ -9,16 +9,16 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
-        public int missionId { get; set; }
 
-        [ForeignKey("missionId")]
+        [ForeignKey("Mission")]
+        public int missionId { get; set; }
         public Mission Mission { get; set; }
 
         [Column(TypeName = "datetime")]
         [DisplayName("Date de payment")]
         public DateTime PaymentDate { get; set; }
 
-        [Column(TypeName = "boolean")]
+        [Column(TypeName = "bit")]
         [DisplayName("Si true alors la facture est payé si false la facture n'est pas encore payé")]
         public bool status { get; set; }
 
