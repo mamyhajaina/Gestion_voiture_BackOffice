@@ -10,10 +10,10 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
-        public int VehiculeId { get; set; }
+        public int VehicleId { get; set; }
 
-        [ForeignKey("VehiculeId")]
-        public Vehicule Vehicule { get; set; }
+        [ForeignKey("VehicleId")]
+        public Vehicle Vehicle { get; set; }
 
         [Column(TypeName = "nvarchar(1000)")]
         [DisplayName("Raison de la maintenance")]

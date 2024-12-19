@@ -35,5 +35,4 @@ namespace Gestion_voiture_BackOffice.Models
         [DisplayName("Mis à jour le")]
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
     }
-    }
 }

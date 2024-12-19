@@ -19,11 +19,6 @@ namespace Gestion_voiture_BackOffice.Models
         [ForeignKey("vehicleId")]
         public Vehicle Vehicle { get; set; }
 
-        public int vehicleId { get; set; }
-
-        [ForeignKey("vehicleId")]
-        public Vehicle Vehicle { get; set; }
-
         [Column(TypeName = "int")]
         [DisplayName("Nombre de voyage")]
         public int NumberTrips { get; set; }
@@ -31,7 +26,7 @@ namespace Gestion_voiture_BackOffice.Models
         public int typeRentalId { get; set; }
 
         [ForeignKey("typeRentalId")]
-        public TypeRentale TypeRentale { get; set; }
+        public TypeRental TypeRental { get; set; }
 
         [Column(TypeName = "boolean")]
         [DisplayName("Si true alors de mission est terminé alors si false la mission est refuser ou annuler")]

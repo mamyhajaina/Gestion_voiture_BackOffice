@@ -9,10 +9,10 @@ namespace Gestion_voiture_BackOffice.Models
         [Key]
         public int Id { get; set; }
 
-        [Column(TypeName = "nvarchar(7)")]
+        [Column(TypeName = "nvarchar(8)")]
         [DisplayName("Numero matricule")]
         [Required(ErrorMessage = "This field is required.")]
-        [MaxLength(7, ErrorMessage = "Maximum 7 characters only.")]
+        [MaxLength(8, ErrorMessage = "Maximum 8 characters only.")]
         public string Number { get; set; }
 
         [Column(TypeName = "nvarchar(20)")]
