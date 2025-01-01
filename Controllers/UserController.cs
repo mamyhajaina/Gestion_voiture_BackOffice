@@ -1,9 +1,11 @@
 ﻿using Gestion_voiture_BackOffice.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
 using Gestion_voiture_BackOffice.Models;
+using Gestion_voiture_BackOffice.Configurations;
 
 namespace Gestion_voiture_BackOffice.Controllers
 {
+    [ServiceFilter(typeof(AuthorizeFilter))]
     public class UserController : Controller
     {
         private readonly IUserService _userService;

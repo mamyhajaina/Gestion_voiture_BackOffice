@@ -50,20 +50,27 @@ namespace Gestion_voiture_BackOffice.Services
             return true;
         }
 
-        public async Task<User> GetByEmailPassWordAsync(string email, string password)
-        {
-            string passwordHash = password;
-            return await _context.User.FirstOrDefaultAsync(res => res.Email == email && res.PasswordHash == passwordHash);
-        }
+        //private string HashPassword(string password)
+        //{
+        //    using (var sha256 = System.Security.Cryptography.SHA256.Create())
+        //    {
+        //        var bytes = System.Text.Encoding.UTF8.GetBytes(password);
+        //        var hash = sha256.ComputeHash(bytes);
+        //        return Convert.ToBase64String(hash);
+        //    }
+        //}
 
-        private string HashPassword(string password)
+        public async Task<User> LoginAsync(string email, string passwordHash)
         {
-            using (var sha256 = System.Security.Cryptography.SHA256.Create())
+            var user = await _context.User
+                             .FirstOrDefaultAsync(res => res.Email == email && res.PasswordHash == passwordHash);
+
+            if (user == null)
             {
-                var bytes = System.Text.Encoding.UTF8.GetBytes(password);
-                var hash = sha256.ComputeHash(bytes);
-                return Convert.ToBase64String(hash);
+                return null;
             }
+
+            return user;
         }
     }
 }

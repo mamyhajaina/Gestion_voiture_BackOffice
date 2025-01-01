@@ -1,9 +1,11 @@
-﻿using Gestion_voiture_BackOffice.Models;
+﻿using Gestion_voiture_BackOffice.Configurations;
+using Gestion_voiture_BackOffice.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Gestion_voiture_BackOffice.Controllers
 {
+    [ServiceFilter(typeof(AuthorizeFilter))]
     public class VehicleController : Controller
     {
         private readonly ApplicationDBContext _ContextVehicle;
